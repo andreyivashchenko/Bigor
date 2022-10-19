@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  &__logo {
+    display: flex;
+    padding-left: 132px;
+    align-items: center;
+    img {
+      display: block;
+      max-height: 88px;
+    }
+  }
+  &__name {
+    padding-left: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    p:first-child {
+      font-weight: 600;
+    }
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    padding-right: 132px;
+    p {
+      padding-left: 35px;
+    }
+  }
+}
+.Thesaurus {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0;
+  color: white;
+}
