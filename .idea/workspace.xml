@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="60e533b1-0a8e-4ca7-b7c4-40d48e719cf8" name="Changes" comment="..">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" />
-    </list>
+
+   
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2EyiLm1eBRpZ0WGx4xFM6bsJ1Gk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,32 +38,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Web/2022/React_project&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\79057\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web\2022\Bigor\src\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Web\2022\Bigor\src" />
-      <recent name="D:\Web\2022\Bigor\src\pages\Thesaurus" />
-      <recent name="D:\Web\2022\Bigor\src\components\Input" />
-      <recent name="D:\Web\2022\Bigor\src\pages" />
-      <recent name="D:\Web\2022\Bigor\src\pages\Start" />
+      <recent name="D:\projects\Bigor\src\styles" />
+      <recent name="D:\projects\Bigor\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,12 +62,9 @@
       <workItem from="1663586156645" duration="111000" />
       <workItem from="1663586348697" duration="317000" />
       <workItem from="1663587170379" duration="420000" />
-      <workItem from="1663743601725" duration="2611000" />
-      <workItem from="1664623710256" duration="4000" />
-      <workItem from="1665852123402" duration="159000" />
-      <workItem from="1665852321439" duration="5464000" />
-      <workItem from="1665932156741" duration="16221000" />
-      <workItem from="1666166237189" duration="25255000" />
+      <workItem from="1663939067142" duration="4820000" />
+      <workItem from="1664121537754" duration="346000" />
+      <workItem from="1665942247133" duration="19143000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1663578943167</created>
@@ -97,21 +80,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663583104079</updated>
     </task>
-    <task id="LOCAL-00003" summary="Криво косо сверстал первую страницу (осуждаю)">
-      <created>1665948541997</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1665948541997</updated>
-    </task>
-    <task id="LOCAL-00004" summary="..">
-      <created>1666204862868</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1666204862868</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,50 +91,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="master" />
-                </option>
-              </RecentGroup>
-            </list>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test commit" />
     <MESSAGE value="gdfgdgd" />
-    <MESSAGE value="Криво косо сверстал первую страницу (осуждаю)" />
-    <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+
   </component>
 </project>
