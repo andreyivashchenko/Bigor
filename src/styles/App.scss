@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body_wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.name_block {
+  flex: 1 1 auto;
+  width: 950px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.col-1 {
+  justify-content: start;
+  margin: 10px 10px 10px 10px;
+}
+
+.row {
+  display: flex;
+  //flex-wrap: wrap;
+}
+
+.row > div {
+  padding: 5px;
+  flex: 0 0 45%;
+  //margin: 5px auto;
+}
+
+.name {
+  margin: 10px 0px;
+}
+
+footer {
+  padding: 40px 40px 40px 225px;
+  background-color: darkgray;
+  width: 100%;
+  color: white;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.adres {
+  display: inline-block;
+  background: url("../img/adress.svg") no-repeat;
+  height: 15px;
+  width: 15px;
+}
+
+.number {
+  display: inline-block;
+  background: url("../img/number.svg") no-repeat;
+  height: 15px;
+  width: 15px;
+}
+
+.mail {
+  display: inline-block;
+  background: url("../img/mail.svg") no-repeat;
+  height: 15px;
+  width: 15px;
+}
+
+.Vk {
+  display: inline-block;
+  background: url("../img/Vk.svg") no-repeat;
+  height: 15px;
+  width: 15px;
+  fill: white;
+}
+
+span {
+  margin-left: 5px;
+}
