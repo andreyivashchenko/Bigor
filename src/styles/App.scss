@@ -4,84 +4,84 @@
   box-sizing: border-box;
 }
 
-.wrapper{
+.body_wrapper {
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-h2{
+h2 {
   font-weight: 600;
 }
 
-.name_block{
+.name_block {
   flex: 1 1 auto;
   width: 950px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.col-1{
+.col-1 {
   justify-content: start;
   margin: 10px 10px 10px 10px;
 }
 
-.row{
+.row {
   display: flex;
   //flex-wrap: wrap;
 }
 
-.row > div{
+.row > div {
   padding: 5px;
-  flex: 0 0 45% ;
+  flex: 0 0 45%;
   //margin: 5px auto;
 }
 
-.name{
+.name {
   margin: 10px 0px;
 }
 
-footer{
+footer {
   padding: 40px 40px 40px 225px;
   background-color: darkgray;
   width: 100%;
   color: white;
 }
 
-.links{
+.links {
   display: flex;
   align-items: center;
 }
 
-.adres{
+.adres {
   display: inline-block;
-  background: url('../img/adress.svg') no-repeat ;
+  background: url("../img/adress.svg") no-repeat;
   height: 15px;
   width: 15px;
 }
 
-.number{
+.number {
   display: inline-block;
-  background: url('../img/number.svg') no-repeat ;
+  background: url("../img/number.svg") no-repeat;
   height: 15px;
   width: 15px;
 }
 
-.mail{
+.mail {
   display: inline-block;
-  background: url('../img/mail.svg') no-repeat;
+  background: url("../img/mail.svg") no-repeat;
   height: 15px;
   width: 15px;
 }
 
-.Vk{
+.Vk {
   display: inline-block;
-  background: url('../img/Vk.svg') no-repeat ;
+  background: url("../img/Vk.svg") no-repeat;
   height: 15px;
   width: 15px;
   fill: white;
 }
 
-span{
+span {
   margin-left: 5px;
 }
