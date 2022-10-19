@@ -1,8 +1,21 @@
-import "./styles/App.scss";
-import React from 'react'
+import "./App.scss";
+import React from "react";
+import Start from "./pages/Start/Start";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import Thesaurus from "./pages/Thesaurus/Thesaurus";
 
 function App() {
   return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Start />} />
+          <Route path="/Thesaurus" element={<Thesaurus />} />
+        </Routes>
+      </Router>
+
+
+
       <div id="page_header" className="wrapper">
           <div className="name_block">
               <h2>Все учебные курсы:</h2>
@@ -63,6 +76,7 @@ function App() {
             </div>
           </footer>
       </div>
+    </div>
   );
 }
 
