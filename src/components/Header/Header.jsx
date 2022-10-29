@@ -8,7 +8,6 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.header__logo}>
         <img src={Logo} alt="" />
-        {console.log(Logo)}
         <div className={styles.header__name}>
           <p>МГТУ им. Н.Э Баумана</p>
           <p>Создаем инженеров</p>
