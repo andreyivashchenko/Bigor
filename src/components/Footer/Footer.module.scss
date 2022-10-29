@@ -1,0 +1,50 @@
+footer {
+  background-color: darkgray;
+  width: 100%;
+  min-height: 344px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  min-width: 1260px;
+  margin: 0 auto;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.adres {
+  display: inline-block;
+  background: url("../../img/adress.svg") no-repeat;
+  height: 15px;
+  width: 15px;
+}
+
+.number {
+  display: inline-block;
+  background: url("../../img/number.svg") no-repeat;
+  height: 15px;
+  width: 15px;
+}
+
+.mail {
+  display: inline-block;
+  background: url("../../img/mail.svg") no-repeat;
+  height: 15px;
+  width: 15px;
+}
+
+.Vk {
+  display: inline-block;
+  background: url("../../img/Vk.svg") no-repeat;
+  height: 15px;
+  width: 15px;
+  fill: white;
+}
+
+span {
+  margin-left: 5px;
+}
