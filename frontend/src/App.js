@@ -4,6 +4,7 @@ import React from "react";
 import Start from "./pages/Start/Start";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Thesaurus from "./pages/Thesaurus/Thesaurus";
+import Courses from "./pages/Courses/Courses";
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Start />} />
           <Route path="/Thesaurus" element={<Thesaurus />} />
+          <Route path="/Courses" element={<Courses />} />
         </Routes>
       </Router>
-      </div>
+    </div>
   );
 }
 

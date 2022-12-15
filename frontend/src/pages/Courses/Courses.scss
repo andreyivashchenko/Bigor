@@ -1,0 +1,58 @@
+/* Split the screen in half */
+
+.wrapper1 {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+
+}
+
+.split {
+    display: flex;
+    height: 100%;
+
+    z-index: 1;
+    top: 140px;
+    overflow-x: hidden;
+    padding-top: 20px;
+    &__left {
+        width: 20%;
+        left: 0;
+        background-color: darkgray;
+    }
+    &__right {
+        width: 80%;
+        right: 0;
+        background-color: white;
+        font-size: 18px;
+    }
+}
+
+/* Control the left side */
+
+
+/* Control the right side */
+
+
+.title {
+    margin: 20px 5px;
+    font-size: 18px;
+    text-align: left;
+    &__content{
+        display: block;
+        font-size: inherit;
+        padding-top: 10px;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+.centered2 {
+    margin: 0px 100px;
+
+
+
+}
