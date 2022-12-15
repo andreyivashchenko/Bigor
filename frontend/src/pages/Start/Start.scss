@@ -69,11 +69,22 @@
   &__col {
     justify-content: start;
     width: 610px;
-    div:first-child {
+    Link:first-child {
       padding-top: 0;
     }
     div {
       padding: 8px 0;
+      text-decoration: none;
     }
   }
+  &__item{
+    display: block;
+    text-decoration: none;
+    color: #252525;
+    padding: 8px 0;
+    &:hover{
+      color: crimson;
+    }
+  }
+
 }
