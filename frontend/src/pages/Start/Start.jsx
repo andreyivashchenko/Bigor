@@ -34,7 +34,7 @@ const Start = () => {
         <Header />
         <div className="wrapper__home__container">
           <h1>База и Генератор Образовательных Ресурсов</h1>
-          <Input />
+          <Input courses={courses} Click={Click} />
           <div className="transition">
             <span>Перейти ко всем учебным курсам</span>
             <a href="#courses" className="transition__arr"></a>
